@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+.header{
+  padding: 8px;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.links li {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 15px;
+}
+.links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.body {
+  padding-top: 20vh;
+}
+/* logo styling */
+.logo {
+  font-size: 70px;
+}
+.btn {
+  border: 1px solid black;
+  height: 50px;
+  background-color: white;
+}
+input {
+  height: 50px;
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  width: 50%;
+  background-color: white;
+}
+.btn1 {
+  border-right: 0px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.btn2 {
+  border-left: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+/* buttons div */
+.btndiv {
+  padding-top: 30px;
+}
+.btn3 {
+  border: 0px;
+}
+/* text div */
+.text {
+  font-size: 13px;
+}
+.text a {
+  text-decoration: none;
+}
+.francais{
+  padding-top:10px ;
+}
+
+/* footer */
+.footer {
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.285);
+}
+.footer1 {
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+.footer1 p a {
+  color: rgba(28, 28, 28, 0.987);
+  text-decoration: none;
+
+}
+.footer2 {
+  display: flex;
+  padding: 3px;
+}
+.divleft,
+.divright {
+  flex: 50%;
+}
+.divleft a {
+  color: grey;
+  padding-right: 8px;
+  text-decoration: none;
+}
+.divright a {
+  color: grey;
+  padding-right: 8px;
+  text-decoration: none;
+}
